@@ -1,0 +1,29 @@
+.invalid {
+  background-color: #8b5cf6;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+.invalid__heading {
+  background-color: #3838e7;
+  align-self: flex-start;
+  width: 100%;
+  padding: 0.5rem 1.2rem;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.invalid__text {
+  padding: 2rem 3rem;
+}
+.invalid__btn {
+  align-self: flex-end;
+  background-color: #3838e7;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin: 0.8rem;
+}
+
+/*  #ec4899, #8b5cf6 */
